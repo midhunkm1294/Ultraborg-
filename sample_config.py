@@ -106,6 +106,7 @@ class Config(object):
     # define the "types" that should be uplaoded as streamable
     TL_VID_STREAM_TYPES = ("MP4", "WEBM")
     TL_MUS_STREAM_TYPES = ("MP3", "WAV", "FLAC")
+    SPAM_WATCH_API = os.environ.get("SPAM_WATCH_API", None)
 
 
 class Production(Config):
