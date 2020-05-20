@@ -19,7 +19,7 @@ google_images_download
 googletrans
 gtts
 hachoir
-httplib2==0.15.0
+httplib2==0.18.0
 humanize
 hurry.filesize
 langdetect
